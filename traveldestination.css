@@ -1,0 +1,183 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    
+  }
+
+  header {
+    background-color: #007BFF;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+border-top: 4px solid black;
+border-bottom: 4px solid black;
+
+  }
+
+  .destination {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+
+  }
+
+  .destination img {
+    max-width: 100%;
+    border-radius: 8px;
+    margin-right: 2rem;
+  }
+
+
+  .destination img
+  {
+    content:url(" https://tourscanner.com/blog/wp-content/uploads/2017/10/Maldives-islands.jpg  ");
+    width:290px;
+    height:300px;
+  }
+
+  .details {
+    flex: 1;
+  }
+
+  .details h2 {
+    font-size: 2rem;
+    margin-bottom: 1rem;
+  }
+
+  .details p {
+    font-size: 1.2rem;
+    line-height: 1.5;
+  }
+
+  .map  img{
+    width: 330px;
+    height: 350px;
+    content: url('  https://cdn.britannica.com/99/183699-050-9D030C99/World-Data-Locator-Map-Maldives.jpg  '); /* Replace with your map image */
+    background-size: cover;
+    background-position: center;
+    margin-top: 20px;
+margin-bottom: 20px;
+  }
+
+  .map-container
+  {
+    display: flex;
+    flex-direction: row-reverse;
+    margin-bottom: 0px;
+
+    background-color: #f0f0f0;
+
+  }
+  .map-container p
+  {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 50px;
+  }
+
+  #weather
+  {
+margin-top: 0px;
+    
+  }
+
+  .weather-heading h2 {
+    font-size: 1.5rem;
+    text-align:center ;
+    background-color: #007BFF;
+    padding: 20px;
+    margin-top: 0px;
+  }
+  
+  #weather p
+  {
+
+    text-align: center;
+    font-size: 20px;
+  }
+
+  .foods
+{
+text-align: center;
+background-color: #007BFF;
+padding:20px;
+margin-bottom:0px ;
+}
+
+ .food-item2 img
+  {
+
+    content:url("  https://img.freepik.com/premium-photo/mas-huni-traditional-maldivian-breakfast-tuna-coconut-onion-chili-with-chapati-tortillas-close-up_186456-3012.jpg  ");
+
+width: 300px;
+height: 250px;
+
+margin-top: 25px;
+margin-bottom: 20px;
+  }
+
+
+  .food-item1 img
+  {
+content: url(" https://bosskitchen.com/wp-content/uploads/2021/01/Bis-Keemiya.jpg   ");
+
+width:300px;
+height: 250px;
+margin-top: 25px;
+margin-bottom: 20px;
+
+  }
+
+  .food-item1 
+
+  {
+display: flex;
+gap:20px;
+background-color: #f0f0f0;
+
+flex-direction: row;
+
+  }
+  .food-item1 p
+  {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+  }
+
+  .food-item2
+
+  {
+display: flex;
+
+gap:20px;
+
+background-color: #f0f0f0;
+
+border-top: 4px solid grey;
+
+  }
+
+  .food-item2 p
+  {
+
+    text-align: center;
+    font-size: 20px;
+    margin-top: 80px;
+  }
+
+  footer {
+    text-align: center;
+    background-color: #007BFF  ;
+    color: white;
+    padding: 1rem;
+    border-top: 4px solid black;
+    border-bottom: 4px solid black;
+
+  }
+
+  
